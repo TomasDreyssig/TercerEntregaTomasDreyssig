@@ -1,0 +1,33 @@
+.fotofesti {
+    @include sizes (700px, 450px);
+    
+}
+
+
+
+
+.container-fiesta {
+    display: flex;
+    justify-content: center;
+    margin-right: 25%;
+
+}
+
+.festivales {
+    margin-right: -22%;
+}
+
+.pfestival a {
+    @include margin (2%);
+    
+    display: $pdisplay;
+    justify-content: flex-start;
+    color: black;
+    font-size: 25px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: 0.3%;
+    text-decoration: solid;
+}
+
+
+

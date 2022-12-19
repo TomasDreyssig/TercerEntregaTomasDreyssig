@@ -1,0 +1,25 @@
+.container img {
+    @include sizes (500px,auto);
+    margin-left: 30px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1, 1fr;
+    grid-template-areas:
+        "grid1"
+        "grid2"
+        "grid3"
+        "grid4";
+
+}
+
+.container div {
+    display: $pdisplay;
+}
+
+.grid1 {
+    display: $pdisplay;
+}

@@ -1,0 +1,17 @@
+$hcolor:black;
+$pcolor: rgb(77, 77, 77); 
+$pdisplay: flex;
+
+/*mixin*/
+
+@mixin margin ($size) {
+
+    margin-top: $size;
+}
+
+/*mixin sizes*/
+
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}

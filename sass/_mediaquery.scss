@@ -1,0 +1,169 @@
+/*media query para dispositivos medianos Home*/
+@media screen and (max-width: 765px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: 20%;
+        margin-left: -60px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    img {
+        width: 100%;
+        margin-left: -60px;
+        
+    }
+
+}
+
+
+
+
+/*media query para dispositivos medianos Fotografias*/
+@media screen and (max-width: 765px) {
+
+    .container-fotos {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 74px;
+    
+    }
+}
+
+
+/*media query para disposivos pequeños Fotografias*/
+@media screen and (max-width: 576px) {
+
+    .container-fotos {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 74px;
+    
+    }
+}
+
+
+
+/*memdia query para dispositivos medianos indumentaria*/
+@media screen and (max-width: 765px) {
+   
+
+    .ropa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        width: 100%;      
+    }
+
+    .container-ind {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        flex-wrap: nowrap;
+        margin-right: 120px;
+    }
+}
+
+/*media query para dispositivos pequeños indumentaria*/
+@media screen and (max-width: 576px) {
+    .navegacion {
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .ropa {
+        height: 375px;
+    }
+
+    
+}
+
+
+
+
+
+
+/*media query para dispositivos pequeños Artistas*/
+@media screen and (max-width:576px) {
+
+    .container img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/*media query para dispositivos medianos Artistas*/
+
+@media screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    .container img {
+        @include sizes (274px,250px);
+        margin-left: 30px;
+
+
+    }
+
+}
+
+/*media query para dispositivos medianos Festivales */
+
+@media screen and (max-width:768px) {
+    .container-fiesta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+
+
+    }
+
+    .fotofesti {
+        @include sizes (500px,350px);
+        
+    }
+}
+
+/*media query para dispositivos pequeños Festivales */
+@media screen and (max-width:576px) {
+    .container-fiesta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotofesti {
+        @include sizes (100%,150px);
+        margin-left: 10%;
+        justify-content: left
+    }
+
+}

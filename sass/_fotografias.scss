@@ -1,0 +1,22 @@
+.container-fotos {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 22%;
+    
+}
+
+
+.foto1 img {
+    margin-left: 52%;
+}
+
+.foto3 img {
+    margin-left: 52%;
+}
+
+.foto5 img {
+    margin-left: 52%;
+}
